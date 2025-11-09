@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Banner image: place banner_byKenvi.png at the repo root as ./banner.png -->
-  ![Banner](./banner.png)
+  ![Banner](./banner_byKenvi.png)
 </p>
 
 <p align="center">
