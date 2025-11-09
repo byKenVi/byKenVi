@@ -63,7 +63,7 @@
 
 * Clean code, tests, PRs soignés. / Clean code, tests, tidy PRs.
 * Automatisation progressive: CI/CD, linting, tests unitaires et e2e.
-* Documentation : README concis + examples.
+* Documentation : README concis + exemples.
 
 ---
 
@@ -99,7 +99,71 @@ console.log(result);
 
 ### 3) Bonus: Mini-challenge (à cloner) / Mini challenge
 
-* Clone ce repo, ouvre `challenge/README.md` et résous l'exo en 24h. 🔒 (Tu peux transformer ça en GitHub issue et tracker ton temps.)
+Un petit challenge que tu peux héberger dans un dossier `challenge/` du repo.
+
+**But / Goal (FR / EN)**
+
+* Écrire une petite CLI Node.js qui lit un fichier JSON de tâches (todos), filtre celles due aujourd'hui, et affiche un résumé : nombre total, nombre terminé, et une liste triée par priorité.
+* Build a small Node.js CLI that reads a JSON todo file, filters tasks due today, and prints a summary: total count, completed count, and a list sorted by priority.
+
+**Structure suggérée / Suggested structure**
+
+```
+challenge/
+├─ README.md       # instructions & tests
+├─ sample_todos.json
+├─ index.js         # CLI entry (ex: node index.js todos.json)
+├─ package.json
+└─ tests/
+   └─ test_cli.js   # basic tests using node assert
+```
+
+**Exemples d'API & commandes**
+
+* `node index.js sample_todos.json` → affiche le résumé
+* `npm test` → exécute les tests
+
+<details>
+  <summary>Contenu exemple pour `sample_todos.json`</summary>
+
+```json
+[
+  {"id":1,"title":"Deploy API","due":"2025-11-09","priority":2,"done":false},
+  {"id":2,"title":"Fix bug #342","due":"2025-11-09","priority":1,"done":true},
+  {"id":3,"title":"Write README","due":"2025-11-10","priority":3,"done":false}
+]
+```
+
+</details>
+
+<details>
+  <summary>Contenu exemple pour `index.js` (squelette)</summary>
+
+```javascript
+// Usage: node index.js sample_todos.json
+const fs = require('fs');
+const path = require('path');
+
+function isToday(dateStr){
+  const d = new Date(dateStr);
+  const today = new Date();
+  return d.getFullYear()===today.getFullYear() && d.getMonth()===today.getMonth() && d.getDate()===today.getDate();
+}
+
+const file = process.argv[2];
+if(!file){ console.error('Usage: node index.js <todos.json>'); process.exit(1); }
+
+const todos = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
+const todayTodos = todos.filter(t => isToday(t.due));
+const total = todayTodos.length;
+const done = todayTodos.filter(t => t.done).length;
+const list = todayTodos.sort((a,b)=>a.priority - b.priority);
+
+console.log(`Today: ${total} tasks (${done} done)`);
+list.forEach(t=> console.log(`- [${t.done? 'x':' '}] (p${t.priority}) ${t.title}`));
+```
+
+</details>
 
 ---
 
@@ -112,9 +176,10 @@ console.log(result);
 
 ## ✅ How to use / Comment l'utiliser
 
-1. Crée un repo nommé exactement **`byKenvi`** sur GitHub.
-2. Colle le contenu de ce fichier dans le `README.md` du repo.
-3. Push — GitHub affichera automatiquement ce README sur ta page de profil.
+1. Crée un repo GitHub nommé exactement **`byKenvi`**.
+2. Place `banner_byKenvi.png` (fichier que je t'ai fourni) à la racine et renomme-le `banner.png`.
+3. Crée un dossier `challenge/` et colle la structure suggérée (README.md, sample_todos.json, index.js, package.json, tests/).
+4. Colle ce README.md dans la racine du repo et push.
 
 ---
 
