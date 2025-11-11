@@ -1,9 +1,5 @@
 <!-- README by Espoir Kévin Lihounhinto -->
 
-<p align="center">
-  <img src="./banner.png" alt="Bannière - Espoir Kévin Lihounhinto" width="100%">
-</p>
-
 ## 👋 About
 
 My name is **Espoir Kévin Lihounhinto**, and I am a passionate, perfectionist, and curious full-stack developer.  
@@ -64,5 +60,5 @@ For me, every line of code is a small piece of logical art.
 <p align="center">
   <i>Designed with high standards and passion.</i>  
   <br>
-  <img src="https://forthebadge.com/images/badges/made-with-love.svg" alt="Made with Love"/>
+  <img src="https://forthebadge.com/images/badges/made-with-love.svg](https://forthebadge.com/images/badges/built-with-love.svg" alt="Made with Love"/>
 </p>
