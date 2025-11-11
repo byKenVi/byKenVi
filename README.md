@@ -1,23 +1,16 @@
 <!-- README by Espoir Kévin Lihounhinto -->
-<!-- Style : Dark Mode · Créatif · Hautement soigné -->
 
 <p align="center">
   <img src="./banner.png" alt="Bannière - Espoir Kévin Lihounhinto" width="100%">
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=800&height=60&lines=%C2%A0Full+Stack+Developer+%7C+Créateur+d'expériences+numériques+%7C+Code+et+Précision" alt="Typing animation">
-</p>
+## 👋 About
 
----
+My name is **Espoir Kévin Lihounhinto**, and I am a passionate, perfectionist, and curious full-stack developer.  
+I believe that good code is not just about making a project “work,” but about making it **fluid, elegant, and maintainable**.  
+For me, every line of code is a small piece of logical art.
 
-## 👋 À propos
-
-Je suis **Espoir Kévin Lihounhinto**, développeur full stack passionné, perfectionniste et curieux.  
-Je crois qu’un bon code ne se limite pas à “faire marcher” un projet, mais à le rendre **fluide, élégant et maintenable**.  
-Chaque ligne est pour moi un petit morceau d’art logique.
-
-💭 *Mon objectif : transformer des idées complexes en interfaces simples et inspirantes.*
+💭 *My goal: to transform complex ideas into simple and inspiring interfaces.*
 
 ---
 
@@ -36,24 +29,9 @@ Chaque ligne est pour moi un petit morceau d’art logique.
   <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white"/>
 </p>
 
-🧠 Toujours en quête d'amélioration, je veille à produire un code clair, testé, documenté et scalable.  
-Mon environnement idéal : **Docker**, **VS Code**, **Node.js**, et une bonne playlist lo-fi.
-
 ---
 
-## 💡 Dev Puzzle — Animation interactive
-
-<p align="center">
-  <img src="https://i.imgur.com/yMVFj7s.gif" alt="Dev Puzzle Animation" width="80%">
-</p>
-
-> 💭 *Saurez-vous deviner la sortie du code ?*  
-> Ce mini terminal animé illustre ma vision du développement : observer, comprendre, anticiper.  
-> La beauté du code réside souvent dans sa logique cachée.
-
----
-
-## 📊 Statistiques GitHub
+## 📊 Statistics GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=byKenvi&show_icons=true&theme=tokyonight&hide_border=true" alt="Stats GitHub"/>
@@ -84,7 +62,7 @@ Mon environnement idéal : **Docker**, **VS Code**, **Node.js**, et une bonne pl
 ---
 
 <p align="center">
-  <i>Conçu avec exigence et passion.</i>  
+  <i>Designed with high standards and passion.</i>  
   <br>
   <img src="https://forthebadge.com/images/badges/made-with-love.svg" alt="Made with Love"/>
 </p>
