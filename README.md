@@ -60,5 +60,4 @@ For me, every line of code is a small piece of logical art.
 <p align="center">
   <i>Designed with high standards and passion.</i>  
   <br>
-  <img src="https://forthebadge.com/images/badges/made-with-love.svg](https://forthebadge.com/images/badges/built-with-love.svg" alt="Made with Love"/>
 </p>
